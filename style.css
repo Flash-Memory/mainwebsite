@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body {
+    background-color: black;
+}
+
+header {
+    width: fit-content;
+    margin: 35px auto;
+}
+
+header a img {
+    width: 320px;
+}
+
+button {
+    width: 205px;
+    height: 70px;
+    margin: 6px 11px;
+    color: white;
+    background-color: black;
+    transition-duration: 0.3s;
+}
+
+.fmbutton {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.cbbutton {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 1.7em;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 2px solid white;
+}
+
+#row1, #row2, #row3, #row4, #row5, #row6, #row7 {
+    width: fit-content;
+    margin: 0 auto;
+}
+#coolboy {
+    width: fit-content;
+    margin: 60px auto -5px;
+}
+
+#coolboylogo {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 4.45em;
+    font-weight: normal;
+    color: white;
+}
+
+.pink {
+    border: 2px solid deeppink;
+}
+.pink:hover {
+    background-color: deeppink;
+}
+
+.cyan {
+    border: 2px solid deepskyblue;
+}
+.cyan:hover {
+    background-color: deepskyblue;
+}
+
+.red {
+    border: 2px solid red;
+}
+.red:hover {
+    background-color: red;
+}
+
+.blue {
+    border: 2px solid blue;
+}
+.blue:hover {
+    background-color: blue;
+}
+
+.orange {
+    border: 2px solid darkorange;
+}
+.orange:hover {
+    background-color: darkorange;
+}
+
+.green {
+    border: 2px solid lime;
+}
+.green:hover {
+    background-color: lime;
+}
+
+.purple {
+    border: 2px solid darkorchid;
+}
+.purple:hover {
+    background-color: darkorchid;
+}
+
+footer {
+    width: fit-content;
+    margin: 10px auto;
+}
+
+footer a img {
+    width: 120px;
+}
