@@ -114,6 +114,13 @@ footer a img {
     width: 120px;
 }
 
+#qlink {
+    font-family: monospace;
+    text-align: center;
+    color: slategray;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 900px) {
     header {
         width: fit-content;
