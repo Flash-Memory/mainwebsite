@@ -121,6 +121,27 @@ footer a img {
     text-decoration: none;
 }
 
+#xoetrope a {
+    width: fit-content;
+    margin: 70px auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+#xoetrope img {
+    height: 90px;
+}
+
+#xoetrope h1 {
+    color: white;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 105%;
+}
+
 @media screen and (max-width: 900px) {
     header {
         width: fit-content;
@@ -144,7 +165,6 @@ footer a img {
     .cbbutton {
         font-family: "Comic Sans MS", "Varela Round", sans-serif;
         font-size: 1.4em;
-        cursor: pointer;
     }
 
     #coolboylogo {
@@ -163,5 +183,14 @@ footer a img {
 
     footer a img {
         width: 80px;
+    }
+
+    #xoetrope img {
+        height: 60px;
+    }
+
+    #xoetrope h1 {
+        font-size: 1.4em;
+        line-height: 95%;
     }
 }
