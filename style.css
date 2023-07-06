@@ -40,7 +40,7 @@ button:hover {
     border: 2px solid white;
 }
 
-#row1, #row2, #row3, #row4, #row5, #row6, #row7 {
+#row1, #row2, #row3, #row4, #row5, #row6 {
     width: fit-content;
     margin: 0 auto;
 }
@@ -171,7 +171,7 @@ footer a img {
         font-size: 3em;
     }
 
-    #row1, #row2, #row3, #row4, #row5, #row6, #row7 {
+    #row1, #row2, #row3, #row4, #row5, #row6 {
         width: 100%;
         margin: 0 auto;
     }
