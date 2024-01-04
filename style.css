@@ -67,7 +67,7 @@ button:hover {
     border: 2px solid deepskyblue;
 }
 .cyan:hover {
-    background-color: deepskyblue;
+    background-color: rgb(7, 178, 235);
 }
 
 .red {
@@ -109,7 +109,7 @@ button:hover {
     border: 2px solid yellow;
 }
 .yellow:hover {
-    background-color: yellow;
+    background-color: rgb(208, 211, 10);
 }
 
 footer {
