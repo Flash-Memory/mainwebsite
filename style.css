@@ -32,7 +32,7 @@ button {
 
 .cbbutton {
     font-family: "Comic Sans MS", "Varela Round", sans-serif;
-    font-size: 1.7em;
+    font-size: 1.5em;
     cursor: pointer;
 }
 
@@ -40,7 +40,7 @@ button:hover {
     border: 2px solid white;
 }
 
-#row1, #row2, #row3, #row4, #row5, #row6 {
+#row1, #row2, #row3, #row4, #row5, #row6, #row7 {
     width: fit-content;
     margin: 0 auto;
 }
@@ -51,7 +51,7 @@ button:hover {
 
 #coolboylogo {
     font-family: "Comic Sans MS", "Varela Round", sans-serif;
-    font-size: 4.45em;
+    font-size: 2.45em;
     font-weight: normal;
     color: white;
 }
@@ -103,6 +103,13 @@ button:hover {
 }
 .purple:hover {
     background-color: darkorchid;
+}
+
+.yellow {
+    border: 2px solid yellow;
+}
+.yellow:hover {
+    background-color: yellow;
 }
 
 footer {
@@ -171,7 +178,7 @@ footer a img {
         font-size: 3em;
     }
 
-    #row1, #row2, #row3, #row4, #row5, #row6 {
+    #row1, #row2, #row3, #row4, #row5, #row6, #row7 {
         width: 100%;
         margin: 0 auto;
     }
