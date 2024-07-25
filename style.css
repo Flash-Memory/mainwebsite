@@ -149,12 +149,12 @@ footer a img {
     line-height: 105%;
 }
 
-#about {
+#about, #mission {
     width: fit-content;
-    margin: 30px auto 80px;
+    margin: 30px auto 0px;
 }
 
-#about h1 {
+#about h1, #mission h1 {
     color: white;
     font-family: 'Titillium Web', sans-serif;
     font-size: 2.2em;
@@ -173,6 +173,15 @@ footer a img {
 #motto {
     font-style: italic;
     letter-spacing: 1.6px;
+}
+
+#mission p {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.3em;
+    text-align: justify;
+    line-height: 1.8;
+    width: 640px;
 }
 
 @media screen and (max-width: 900px) {
@@ -225,5 +234,14 @@ footer a img {
     #xoetrope h1 {
         font-size: 1.4em;
         line-height: 95%;
+    }
+
+    #about h1, #mission h1 {
+        font-size: 2.0em;
+    }
+
+    #about p, #mission p {
+        font-size: 1em;
+        width: 90%;
     }
 }
