@@ -16,7 +16,7 @@ header a img {
 
 button {
     width: 205px;
-    height: 70px;
+    height: 60px;
     margin: 6px 11px;
     color: white;
     background-color: black;
@@ -25,14 +25,8 @@ button {
 
 .fmbutton {
     font-family: 'Titillium Web', sans-serif;
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: 500;
-    cursor: pointer;
-}
-
-.cbbutton {
-    font-family: "Comic Sans MS", "Varela Round", sans-serif;
-    font-size: 1.5em;
     cursor: pointer;
 }
 
@@ -47,13 +41,6 @@ button:hover {
 #coolboy {
     width: fit-content;
     margin: 60px auto -5px;
-}
-
-#coolboylogo {
-    font-family: "Comic Sans MS", "Varela Round", sans-serif;
-    font-size: 2.45em;
-    font-weight: normal;
-    color: white;
 }
 
 .pink {
@@ -196,21 +183,12 @@ footer a img {
 
     button {
         width: 100%;
-        height: 60px;
+        height: 50px;
         margin: 6px auto;
     }
 
     .fmbutton {
         font-size: 1.6em;
-    }
-
-    .cbbutton {
-        font-family: "Comic Sans MS", "Varela Round", sans-serif;
-        font-size: 1.4em;
-    }
-
-    #coolboylogo {
-        font-size: 3em;
     }
 
     #row1, #row2, #row3, #row4, #row5, #row6, #row7 {
