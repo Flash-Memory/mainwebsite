@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body {
     background-color: black;
+}
+
+h1, p, li, button, a {
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 header {
@@ -10,21 +14,37 @@ header {
     margin: 35px auto;
 }
 
-header a img {
+#mainlogo {
     width: 320px;
+}
+
+#links {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+li {
+    font-size: 1.7em;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 button {
     width: 205px;
     height: 60px;
     margin: 6px 11px;
-    color: white;
     background-color: black;
     transition-duration: 0.3s;
 }
 
 .fmbutton {
-    font-family: 'Titillium Web', sans-serif;
     font-size: 1.9em;
     font-weight: 500;
     cursor: pointer;
@@ -37,10 +57,6 @@ button:hover {
 #row1, #row2, #row3, #row4, #row5, #row6, #row7 {
     width: fit-content;
     margin: 0 auto;
-}
-#coolboy {
-    width: fit-content;
-    margin: 60px auto -5px;
 }
 
 .pink {
@@ -104,15 +120,8 @@ footer {
     margin: 80px auto 50px;
 }
 
-footer a img {
+#cbp {
     width: 80px;
-}
-
-#qlink {
-    font-family: monospace;
-    text-align: center;
-    color: slategray;
-    text-decoration: none;
 }
 
 #xoetrope a {
@@ -128,9 +137,7 @@ footer a img {
 }
 
 #xoetrope h1 {
-    color: white;
     text-decoration: none;
-    font-family: 'Titillium Web', sans-serif;
     font-size: 2em;
     font-weight: 500;
     line-height: 105%;
@@ -142,15 +149,11 @@ footer a img {
 }
 
 #about h1, #mission h1 {
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
     font-size: 2.2em;
     text-align: center;
 }
 
 #about p {
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
     font-size: 1.1em;
     text-align: justify;
     line-height: 1.8;
@@ -164,8 +167,6 @@ footer a img {
 }
 
 #mission p {
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
     font-size: 1.3em;
     text-align: justify;
     line-height: 1.8;
@@ -179,7 +180,7 @@ footer a img {
         margin: 35px auto;
     }
     
-    header a img {
+    #mainlogo {
         width: 200px;
     }
 
@@ -203,7 +204,7 @@ footer a img {
         margin: 50px auto 30px;
     }
 
-    footer a img {
+    #cbp {
         width: 80px;
     }
 
